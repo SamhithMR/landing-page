@@ -8,4 +8,4 @@ designed and developed this landing page and reinforce my knwledge in HTML & CSS
 `aligning elements ` and more
 ## Screenshots
 
-![preview](https://github.com/SamhithMR/landing-page/result.png.git)
+![preview](https://github.com/SamhithMR/landing-page/blob/main/result.png)
