@@ -22,19 +22,15 @@ body{
     font-weight: 900px;
     position: relative;
     margin-left: 80px;
+    transition: 0.25s ease-in-out;
 }
-.list-item.active
+.list-item:hover , .list-item.active
 {
     font-weight: 900;
 }
-.list-item.active::before
+.list-item:hover, .list-item.active
 {
-    font-family: sans-serif;
-    content: '____';
-    font-weight: 700;
-    position: absolute;
-    left:12px;
-    top:6px;
+    border-bottom: 2px solid #000;
 }
 .button-group
 {
@@ -134,10 +130,22 @@ div > button
     border-radius: 10px;
     font-family: "Poppins" ,sans-serif;
 }
+.button-email:hover{
+    transition: 0.25s ease-in-out;
+    background-color: #000000;
+    color: #fff;
+}
 .button-join
 {
     background-color: #000000;
     color: #fff;
+}
+.button-join:hover
+{
+    transition: 0.25s ease-in-out;
+    background-color:transparent;
+    color: #000;
+    border: 2px solid #000;
 }
 /* selecting the second div element in hero container with Adjacent Sibling Selector  */
 .hero-description + div + div{
