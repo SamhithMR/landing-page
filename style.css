@@ -23,6 +23,7 @@ body{
     position: relative;
     margin-left: 80px;
     transition: 0.25s ease-in-out;
+    cursor: pointer;
 }
 .list-item:hover , .list-item.active
 {
@@ -47,6 +48,7 @@ body{
     padding: 8px 50px;
     margin-left: 15px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* styling hero-container */
@@ -74,6 +76,8 @@ body{
     top:10%;
     left: 5%;
     max-width: 300px;
+    cursor: pointer;
+
 }
 .square
 {
@@ -82,6 +86,7 @@ body{
     right:18%;
     bottom:-15px;
     z-index: -1;
+    cursor: pointer;
 }
 .star
 {
@@ -89,6 +94,7 @@ body{
     position: absolute;
     top: 10%;
     right: 10%;
+    cursor: pointer;
 }
 .star2{
     position: absolute;
@@ -102,6 +108,7 @@ body{
     position: absolute;
     top: 5%;
     left: 20%;
+    cursor: pointer;
 }
 .hero-heading
 {
@@ -134,11 +141,15 @@ div > button
     transition: 0.25s ease-in-out;
     background-color: #000000;
     color: #fff;
+    cursor: pointer;
+
 }
 .button-join
 {
     background-color: #000000;
     color: #fff;
+    cursor: pointer;
+
 }
 .button-join:hover
 {
